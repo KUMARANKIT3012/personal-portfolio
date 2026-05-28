@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import { arrow } from "../assets/icons";
 
 const HomeInfo = ({ currentStage }) => {
@@ -7,10 +6,10 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
         Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Adrian</span>
+        <span className='font-semibold mx-2 text-white'>Ankit Kumar</span>
         👋
         <br />
-        A Software Engineer from Croatia 🇭🇷
+        A Full Stack Developer from Chennai, India 🇮🇳
       </h1>
     );
 
@@ -18,9 +17,8 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+          Published researcher, 2x Luminary Award winner <br /> and 500+ DSA problems solved
         </p>
-
         <Link to='/about' className='neo-brutalism-white neo-btn'>
           Learn more
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
@@ -33,11 +31,10 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+          Built production-grade full stack apps <br /> in finance, project management and more
         </p>
-
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
-          Visit my portfolio
+          View my projects
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
@@ -47,15 +44,14 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 4) {
     return (
       <div className='info-box'>
-      <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
-      </p>
-
-      <Link to='/contact' className='neo-brutalism-white neo-btn'>
-        Let's talk
-        <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-      </Link>
-    </div>
+        <p className='font-medium sm:text-xl text-center'>
+          Looking for a dev or have an opportunity? <br /> I'm actively seeking an SDE internship for 2026
+        </p>
+        <Link to='/contact' className='neo-brutalism-white neo-btn'>
+          Let's talk
+          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+        </Link>
+      </div>
     );
   }
 

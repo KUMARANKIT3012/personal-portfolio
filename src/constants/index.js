@@ -1,4 +1,3 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
@@ -64,7 +63,7 @@ export const skills = [
     },
     {
         imageUrl: motion,
-        name: "Motion",
+        name: "Framer Motion",
         type: "Animation",
     },
     {
@@ -89,13 +88,8 @@ export const skills = [
     },
     {
         imageUrl: redux,
-        name: "Redux",
+        name: "Redux Toolkit",
         type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
     },
     {
         imageUrl: tailwindcss,
@@ -109,57 +103,71 @@ export const skills = [
     }
 ];
 
-export const experiences = [
+export const achievements = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Research Paper — ComSIA-2026",
+        organization: "University of Delhi",
+        iconBg: "#1a1a1a",
+        date: "March 2026",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Co-authored and presented 'Strive Hive: Application for Data-Driven Health and Fitness Decision Making'.",
+            "Presented at an international conference at University of Delhi.",
+            "Collaborated with peers from Sathyabama Institute of Science and Technology.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Luminary Award — 2x Consecutive Winner",
+        organization: "Sathyabama Institute of Science and Technology",
+        iconBg: "#1a1a1a",
+        date: "2024–2025 & 2025–2026",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Awarded consecutively in 1st and 2nd year for academic excellence, extracurriculars, and technical contributions.",
+            "Recognized among top-performing students in the department both years.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Executive Committee Member — IEEE WIE",
+        organization: "IEEE Women in Engineering, Sathyabama",
+        iconBg: "#1a1a1a",
+        date: "Jul 2025 – Feb 2026",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Spearheaded 5+ technical workshops on Web Development, Competitive Programming, and DSA — upskilling 150+ students.",
+            "Directed end-to-end planning for 5+ IEEE WIE chapter events with 100+ attendees each.",
+            "Mentored 20+ junior members on DSA and web development, guiding them through their first full-stack builds.",
+            "Received Certificate of Recognition for outstanding contributions.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "500+ Problems Solved",
+        organization: "LeetCode & GeeksForGeeks",
+        iconBg: "#1a1a1a",
+        date: "2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Solved 500+ DSA problems across LeetCode and GeeksForGeeks.",
+            "Participates regularly in LeetCode and Codeforces contests.",
+            "Strong background in backtracking, dynamic programming, and graph algorithms.",
+        ],
+    },
+    {
+        title: "Google Gemini Certified Student",
+        organization: "Google",
+        iconBg: "#1a1a1a",
+        date: "2025",
+        credentialUrl: "https://edu.google.accredible.com/bfceb752-b345-4e20-a045-9d2ba287ed0d",
+        points: [
+            "Certified by Google as a Gemini AI student developer.",
+            "Proficient in Generative AI concepts and Gemini API usage.",
+        ],
+    },
+    {
+        title: "AI For Everyone — Certified",
+        organization: "Coursera / DeepLearning.AI",
+        iconBg: "#1a1a1a",
+        date: "2025",
+        credentialUrl: "https://www.coursera.org/account/accomplishments/verify/VKYJOCPI33KA",
+        points: [
+            "Completed 'AI For Everyone' by Andrew Ng on Coursera.",
+            "Foundational knowledge in AI strategy and machine learning workflows.",
         ],
     },
 ];
@@ -173,12 +181,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/KUMARANKIT3012',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/ankitkumarsist/',
     }
 ];
 
@@ -186,43 +194,33 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Finance SaaS Platform',
+        description: 'Full-stack finance SaaS with Plaid bank integration, transaction sync, CSV bulk import, Lemon Squeezy billing, and 5+ KPI analytics. Built with Next.js, Hono, PostgreSQL, Drizzle ORM, and Clerk.',
+        link: 'https://github.com/KUMARANKIT3012/Finance-platform',
+        liveLink: 'https://finance-platform-o5o2.vercel.app/sign-in',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Project Management Platform',
+        description: 'Multi-workspace platform with task boards, role-based access across 4 permission levels, Groq AI chatbot, and real-time commenting. Built with React, Node.js, Express, PostgreSQL, and Clerk.',
+        link: 'https://github.com/KUMARANKIT3012/Project-Management',
+        liveLink: 'https://project-mgt-umber.vercel.app/',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        name: 'Jotion — Notion-Inspired Workspace',
+        description: 'Real-time collaborative workspace with rich text editing, recursive document tree, Groq AI assistant, and publish/unpublish workflows. Built with Next.js, Convex, and Clerk.',
+        link: 'https://github.com/KUMARANKIT3012/Jotion',
+        liveLink: 'https://note-taking-app-nine-fawn.vercel.app/',
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-pink',
+        name: 'Strive Hive — Health Analytics',
+        description: 'Data-driven health and fitness decision-making app. Research paper co-authored and presented at ComSIA-2026, University of Delhi.',
+        link: 'https://github.com/KUMARANKIT3012/StriveHive-HealthAnalytics',
+        liveLink: 'https://strive-hive-health-analytics-123.vercel.app/',
+    },
 ];

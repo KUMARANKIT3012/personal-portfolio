@@ -15,11 +15,10 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        Here are some of the projects I've built — production-grade full-stack
+        applications spanning finance, project management, and collaborative
+        tools. Most are open-source, so feel free to explore the codebase or
+        check out the live demos.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
@@ -30,7 +29,7 @@ const Projects = () => {
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
                   src={project.iconUrl}
-                  alt='threads'
+                  alt={project.name}
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
@@ -41,27 +40,42 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
-              <div className='mt-5 flex items-center gap-2 font-poppins'>
+
+              <div className='mt-5 flex items-center gap-6 font-poppins'>
+                <Link
+                  to={project.liveLink}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='flex items-center gap-1 font-semibold text-blue-600'
+                >
+                  Live Demo
+                  <img
+                    src={arrow}
+                    alt='arrow'
+                    className='w-4 h-4 object-contain'
+                  />
+                </Link>
+
                 <Link
                   to={project.link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='font-semibold text-blue-600'
+                  className='flex items-center gap-1 font-semibold text-slate-600'
                 >
-                  Live Link
+                  GitHub
+                  <img
+                    src={arrow}
+                    alt='arrow'
+                    className='w-4 h-4 object-contain'
+                  />
                 </Link>
-                <img
-                  src={arrow}
-                  alt='arrow'
-                  className='w-4 h-4 object-contain'
-                />
               </div>
             </div>
           </div>
         ))}
       </div>
 
-      <hr className='border-slate-200' />
+      <hr className='border-slate-800' />
 
       <CTA />
     </section>

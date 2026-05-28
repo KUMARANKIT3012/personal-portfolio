@@ -4,7 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 
 import { CTA } from "../components";
-import { experiences, skills } from "../constants";
+import { achievements, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -14,16 +14,21 @@ const About = () => {
       <h1 className='head-text'>
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
-          {" "}
-          Adrian
+          Ankit Kumar
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Second-year Computer Science student at Sathyabama Institute of
+          Science and Technology, Chennai — CGPA 9.35. I'm a full-stack
+          developer specializing in MERN and PERN stack applications, with
+          production-grade projects in finance, project management, and
+          collaborative tools. I've co-authored a research paper presented at
+          an international conference, solved 500+ DSA problems competitively,
+          and led technical workshops for 150+ students as an IEEE WIE Executive
+          Committee Member. Currently seeking an SDE internship for Summer 2026.
         </p>
       </div>
 
@@ -47,54 +52,58 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Achievements & Certifications</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            A timeline of my key milestones — research publications, awards,
+            leadership, certifications, and competitive programming achievements.
           </p>
         </div>
 
         <div className='mt-12 flex'>
           <VerticalTimeline>
-            {experiences.map((experience, index) => (
+            {achievements.map((item, index) => (
               <VerticalTimelineElement
-                key={experience.company_name}
-                date={experience.date}
-                iconStyle={{ background: experience.iconBg }}
+                key={index}
+                date={item.date}
+                iconStyle={{
+                  background: item.iconBg,
+                  border: "1px solid #333",
+                }}
                 icon={
-                  <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                      src={experience.icon}
-                      alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
-                    />
+                  <div className='flex justify-center items-center w-full h-full text-lg'>
+                    🏆
                   </div>
                 }
                 contentStyle={{
-                  borderBottom: "8px",
+                  borderBottom: "2px solid #333",
                   borderStyle: "solid",
-                  borderBottomColor: experience.iconBg,
+                  borderBottomColor: "#444",
                   boxShadow: "none",
+                  background: "#111",
+                  color: "#f5f5f5",
+                }}
+                contentArrowStyle={{
+                  borderRight: "7px solid #333",
                 }}
               >
                 <div>
-                  <h3 className='text-black text-xl font-poppins font-semibold'>
-                    {experience.title}
+                  <h3 className='text-white text-xl font-semibold'>
+                    {item.title}
                   </h3>
                   <p
-                    className='text-black-500 font-medium text-base'
+                    className='text-gray-400 font-medium text-base'
                     style={{ margin: 0 }}
                   >
-                    {experience.company_name}
+                    {item.organization}
                   </p>
                 </div>
 
                 <ul className='my-5 list-disc ml-5 space-y-2'>
-                  {experience.points.map((point, index) => (
+                  {item.points.map((point, i) => (
                     <li
-                      key={`experience-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
+                      key={i}
+                      className='text-gray-400 font-normal pl-1 text-sm'
                     >
                       {point}
                     </li>
@@ -106,7 +115,7 @@ const About = () => {
         </div>
       </div>
 
-      <hr className='border-slate-200' />
+      <hr className='border-slate-800' />
 
       <CTA />
     </section>
