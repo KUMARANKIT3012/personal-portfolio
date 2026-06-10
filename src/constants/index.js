@@ -22,7 +22,8 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    leetcode,
 } from "../assets/icons";
 
 export const skills = [
@@ -138,16 +139,17 @@ export const achievements = [
         ],
     },
     {
-        title: "500+ Problems Solved",
-        organization: "LeetCode & GeeksForGeeks",
+        title: "650+ DSA Problems Solved",
+        organization: "LeetCode, GeeksForGeeks & Codeforces",
         iconBg: "#1a1a1a",
         date: "2024 - Present",
-        points: [
-            "Solved 500+ DSA problems across LeetCode and GeeksForGeeks.",
-            "Participates regularly in LeetCode and Codeforces contests.",
-            "Strong background in backtracking, dynamic programming, and graph algorithms.",
-        ],
+            points: [
+            "Solved 650+ algorithmic and data structure problems across LeetCode, GeeksForGeeks, and competitive programming platforms.",
+            "Built strong expertise in trees, graphs, dynamic programming, backtracking, binary search, and greedy algorithms.",
+            "Regularly participates in coding contests to strengthen analytical thinking, problem-solving, and coding efficiency.",
+            ],
     },
+
     {
         title: "Google Gemini Certified Student",
         organization: "Google",
@@ -157,6 +159,18 @@ export const achievements = [
         points: [
             "Certified by Google as a Gemini AI student developer.",
             "Proficient in Generative AI concepts and Gemini API usage.",
+        ],
+    },
+    {
+    title: "Generative AI for Everyone — Certified",
+    organization: "Coursera / DeepLearning.AI",
+    iconBg: "#1a1a1a",
+    date: "June 2026",
+    credentialUrl: "https://coursera.org/verify/EJC8NEH9PJ1O",
+    points: [
+        "Completed 'Generative AI for Everyone' by Andrew Ng on Coursera.",
+        "Learned practical applications, limitations, and real-world use cases of Generative AI.",
+        "Understood AI project lifecycles, prompt engineering, and responsible AI adoption.",
         ],
     },
     {
@@ -187,6 +201,11 @@ export const socialLinks = [
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/ankitkumarsist/',
+    },
+    {
+        name: 'LeetCode',
+        iconUrl: leetcode,
+        link: 'https://leetcode.com/u/ankitkumarsist/',
     }
 ];
 
@@ -199,7 +218,7 @@ export const projects = [
         link: 'https://github.com/KUMARANKIT3012/Finance-platform',
         liveLink: 'https://finance-platform-o5o2.vercel.app/sign-in',
     },
-    {
+    { 
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Project Management Platform',

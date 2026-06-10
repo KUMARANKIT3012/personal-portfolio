@@ -26,7 +26,7 @@ const About = () => {
           developer specializing in MERN and PERN stack applications, with
           production-grade projects in finance, project management, and
           collaborative tools. I've co-authored a research paper presented at
-          an international conference, solved 500+ DSA problems competitively,
+          an international conference, solved 650+ DSA problems competitively,
           and led technical workshops for 150+ students as an IEEE WIE Executive
           Committee Member. Currently seeking an SDE internship for Summer 2026.
         </p>

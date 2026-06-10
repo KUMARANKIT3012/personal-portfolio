@@ -9,7 +9,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Ankit Kumar</span>
         👋
         <br />
-        A Full Stack Developer from Chennai, India 🇮🇳
+        Full-Stack Developer • AI Enthusiast • Problem Solver from Chennai, India 🇮🇳
       </h1>
     );
 
@@ -17,7 +17,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Published researcher, 2x Luminary Award winner <br /> and 500+ DSA problems solved
+          Published researcher, 2x Luminary Award winner <br /> and 650+ DSA problems solved
         </p>
         <Link to='/about' className='neo-brutalism-white neo-btn'>
           Learn more

@@ -17,6 +17,7 @@ import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
 import car from './car.svg'
+import leetcode from './leetcode.svg'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
@@ -47,6 +48,7 @@ export {
     linkedin,
     twitter,
     car,
+    leetcode,
     estate,
     pricewise,
     snapgram,
