@@ -8,13 +8,34 @@ const Navbar = () => {
           AK
         </div>
       </NavLink>
-      <nav className='flex text-lg gap-7 font-medium'>
-        <NavLink to='/about' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
+
+      <nav className='flex items-center text-lg gap-7 font-medium'>
+        <NavLink
+          to='/about'
+          className={({ isActive }) =>
+            isActive ? "text-blue-600" : "text-black"
+          }
+        >
           About
         </NavLink>
-        <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
+
+        <NavLink
+          to='/projects'
+          className={({ isActive }) =>
+            isActive ? "text-blue-600" : "text-black"
+          }
+        >
           Projects
         </NavLink>
+
+        <a
+          href='/Ankit_Kumar_Resume.pdf'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-black'
+        >
+          Resume
+        </a>
       </nav>
     </header>
   );

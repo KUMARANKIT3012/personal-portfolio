@@ -127,7 +127,7 @@ export const achievements = [
         ],
     },
     {
-        title: "Executive Committee Member — IEEE WIE",
+        title: "Former Executive Committee Member — IEEE WIE",
         organization: "IEEE Women in Engineering, Sathyabama",
         iconBg: "#1a1a1a",
         date: "Jul 2025 – Feb 2026",
@@ -210,36 +210,44 @@ export const socialLinks = [
 ];
 
 export const projects = [
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Finance SaaS Platform',
-        description: 'Full-stack finance SaaS with Plaid bank integration, transaction sync, CSV bulk import, Lemon Squeezy billing, and 5+ KPI analytics. Built with Next.js, Hono, PostgreSQL, Drizzle ORM, and Clerk.',
-        link: 'https://github.com/KUMARANKIT3012/Finance-platform',
-        liveLink: 'https://finance-platform-o5o2.vercel.app/sign-in',
-    },
-    { 
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Project Management Platform',
-        description: 'Multi-workspace platform with task boards, role-based access across 4 permission levels, Groq AI chatbot, and real-time commenting. Built with React, Node.js, Express, PostgreSQL, and Clerk.',
-        link: 'https://github.com/KUMARANKIT3012/Project-Management',
-        liveLink: 'https://project-mgt-umber.vercel.app/',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'Jotion — Notion-Inspired Workspace',
-        description: 'Real-time collaborative workspace with rich text editing, recursive document tree, Groq AI assistant, and publish/unpublish workflows. Built with Next.js, Convex, and Clerk.',
-        link: 'https://github.com/KUMARANKIT3012/Jotion',
-        liveLink: 'https://note-taking-app-nine-fawn.vercel.app/',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Strive Hive — Health Analytics',
-        description: 'Data-driven health and fitness decision-making app. Research paper co-authored and presented at ComSIA-2026, University of Delhi.',
-        link: 'https://github.com/KUMARANKIT3012/StriveHive-HealthAnalytics',
-        liveLink: 'https://strive-hive-health-analytics-123.vercel.app/',
-    },
+{
+iconUrl: pricewise,
+theme: 'btn-back-red',
+name: 'Finance SaaS Platform',
+description: 'Full-stack finance SaaS with Plaid bank integration, transaction sync, CSV bulk import, Lemon Squeezy billing, and 5+ KPI analytics.',
+techStack: ['Next.js', 'Hono', 'PostgreSQL', 'Drizzle ORM', 'Clerk', 'Plaid'],
+link: 'https://github.com/KUMARANKIT3012/Finance-platform',
+liveLink: 'https://finance-platform-o5o2.vercel.app/sign-in',
+},
+{
+    iconUrl: threads,
+    theme: 'btn-back-green',
+    name: 'Project Management Platform',
+    description: 'Multi-workspace platform with task boards, role-based access across 4 permission levels, Groq AI chatbot, and real-time commenting.',
+    techStack: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Clerk', 'Groq AI'],
+    link: 'https://github.com/KUMARANKIT3012/Project-Management',
+    liveLink: 'https://project-mgt-umber.vercel.app/',
+},
+
+{
+    iconUrl: summiz,
+    theme: 'btn-back-yellow',
+    name: 'Jotion — Notion-Inspired Workspace',
+    description: 'Real-time collaborative workspace with rich text editing, recursive document tree, Groq AI assistant, and publish/unpublish workflows.',
+    techStack: ['Next.js', 'Convex', 'Clerk', 'Groq AI'],
+    link: 'https://github.com/KUMARANKIT3012/Jotion',
+    liveLink: 'https://note-taking-app-nine-fawn.vercel.app/',
+},
+
+{
+    iconUrl: snapgram,
+    theme: 'btn-back-pink',
+    name: 'Strive Hive — Health Analytics',
+    description: 'Health analytics platform for data-driven fitness decisions. The project was co-authored into a research paper and presented at ComSIA-2026, University of Delhi.',
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
+    link: 'https://github.com/KUMARANKIT3012/StriveHive-HealthAnalytics',
+    liveLink: 'https://strive-hive-health-analytics-123.vercel.app/',
+    paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6440618',
+},
+
 ];

@@ -27,8 +27,10 @@ const About = () => {
           production-grade projects in finance, project management, and
           collaborative tools. I've co-authored a research paper presented at
           an international conference, solved 650+ DSA problems competitively,
-          and led technical workshops for 150+ students as an IEEE WIE Executive
-          Committee Member. Currently seeking an SDE internship for Summer 2026.
+          and led technical workshops for 150+ students as a Former IEEE WIE Executive
+          Committee Member. Currently seeking Software Development Engineering
+          internship opportunities where I can contribute to impactful products
+          while continuing to grow as an engineer.
         </p>
       </div>
 
@@ -51,12 +53,52 @@ const About = () => {
         </div>
       </div>
 
+      <div className='py-10'>
+        <h3 className='subhead-text'>Currently Exploring</h3>
+
+        <div className='mt-5 grid md:grid-cols-2 gap-4'>
+          <div className='p-4 rounded-lg border border-slate-200 bg-white'>
+            <h4 className='font-semibold'>Advanced System Design</h4>
+            <p className='text-slate-500 text-sm mt-1'>
+              Learning scalable architectures, distributed systems, and backend
+              design patterns.
+            </p>
+          </div>
+
+          <div className='p-4 rounded-lg border border-slate-200 bg-white'>
+            <h4 className='font-semibold'>Generative AI & LLM Integrations</h4>
+            <p className='text-slate-500 text-sm mt-1'>
+              Building AI-powered applications using modern LLM APIs and agent
+              workflows.
+            </p>
+          </div>
+
+          <div className='p-4 rounded-lg border border-slate-200 bg-white'>
+            <h4 className='font-semibold'>Next.js Full-Stack Architecture</h4>
+            <p className='text-slate-500 text-sm mt-1'>
+              Exploring advanced patterns for authentication, databases,
+              caching, and deployment.
+            </p>
+          </div>
+
+          <div className='p-4 rounded-lg border border-slate-200 bg-white'>
+            <h4 className='font-semibold'>Competitive Programming</h4>
+            <p className='text-slate-500 text-sm mt-1'>
+              Strengthening problem-solving skills through LeetCode and
+              Codeforces contests.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className='py-16'>
         <h3 className='subhead-text'>Achievements & Certifications</h3>
+
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
             A timeline of my key milestones — research publications, awards,
-            leadership, certifications, and competitive programming achievements.
+            leadership, certifications, and competitive programming
+            achievements.
           </p>
         </div>
 
@@ -91,6 +133,7 @@ const About = () => {
                   <h3 className='text-white text-xl font-semibold'>
                     {item.title}
                   </h3>
+
                   <p
                     className='text-gray-400 font-medium text-base'
                     style={{ margin: 0 }}
