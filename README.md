@@ -36,18 +36,6 @@ This is a personal developer portfolio built with React, Vite, Three.js, and Rea
 - `src/hooks` contains custom hooks used for UI state and alerts.
 - `src/assets` stores icons, images, and other static media used across the site.
 
-## Screenshots
-
-Sample views from the project:
-
-![Hero section](src/assets/images/hero.jpg)
-
-![Project preview 1](src/assets/images/starbucks.png)
-
-![Project preview 2](src/assets/images/shopify.png)
-
-![Project preview 3](src/assets/images/tesla.png)
-
 ## Installation
 
 Clone the repository and install dependencies:
