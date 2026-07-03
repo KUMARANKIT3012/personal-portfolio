@@ -21,8 +21,8 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Second-year Computer Science student at Sathyabama Institute of
-          Science and Technology, Chennai — CGPA 9.35. I'm a full-stack
+          Third-year Computer Science student at Sathyabama Institute of
+          Science and Technology, Chennai — CGPA 9.47. I'm a full-stack
           developer specializing in MERN and PERN stack applications, with
           production-grade projects in finance, project management, and
           collaborative tools. I've co-authored a research paper presented at
