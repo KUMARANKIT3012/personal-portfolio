@@ -21,17 +21,18 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Third-year Computer Science student at Sathyabama Institute of
-          Science and Technology, Chennai — CGPA 9.47. I'm a full-stack
-          developer specializing in MERN and PERN stack applications, with
-          production-grade projects in finance, project management, and
-          collaborative tools. I've co-authored a research paper presented at
-          an international conference, solved 650+ DSA problems competitively,
-          and led technical workshops for 150+ students as a Former IEEE WIE Executive
-          Committee Member. Currently seeking Software Development Engineering
-          internship opportunities where I can contribute to impactful products
-          while continuing to grow as an engineer.
-        </p>
+  Third-year Computer Science student at Sathyabama Institute of
+  Science and Technology, Chennai, with a CGPA of 9.47. Awarded the
+  Chancellor's Scholarship Merit Certificate 2026 for securing 11th Rank
+  among 1,700+ students. I'm a full-stack developer specializing in MERN
+  and PERN stack applications, with production-grade projects in finance,
+  project management, and collaborative tools. I've co-authored a research
+  paper presented at an international conference, solved 700+ DSA
+  problems, and led technical workshops for 150+ students as a Former IEEE
+  WIE Executive Committee Member. Currently seeking Software Development
+  Engineer internship opportunities where I can contribute to impactful
+  products while continuing to grow as an engineer.
+</p>
       </div>
 
       <div className='py-10 flex flex-col'>

@@ -9,7 +9,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Ankit Kumar</span>
         👋
         <br />
-        Full-Stack Developer • AI Enthusiast • Problem Solver from Chennai, India 🇮🇳
+        Full-Stack Developer • AI Enthusiast • Problem Solver 🇮🇳
       </h1>
     );
 
@@ -17,7 +17,9 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Published researcher, 2x Luminary Award winner <br /> and 650+ DSA problems solved
+          Chancellor's Scholarship Merit Awardee • 11th Rank
+          <br />
+          Research Author • 700+ DSA Problems Solved
         </p>
         <Link to='/about' className='neo-brutalism-white neo-btn'>
           Learn more
@@ -31,7 +33,9 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Built production-grade full stack apps <br /> in finance, project management and more
+          Built production-ready full-stack applications
+          <br />
+          using MERN, PERN & Next.js
         </p>
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
           View my projects
@@ -45,7 +49,9 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Looking for a dev or have an opportunity? <br /> I'm actively seeking an SDE internship for 2026
+          Open to Software Development Engineer internships
+          <br />
+          Let's build something impactful together.
         </p>
         <Link to='/contact' className='neo-brutalism-white neo-btn'>
           Let's talk

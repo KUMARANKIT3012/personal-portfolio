@@ -106,6 +106,17 @@ export const skills = [
 
 export const achievements = [
     {
+    title: "Chancellor's Scholarship Merit Certificate 2026",
+    organization: "Sathyabama Institute of Science and Technology",
+    iconBg: "#1a1a1a",
+    date: "2026",
+    points: [
+        "Awarded for securing 11th Rank among 1,700+ students.",
+        "Recognized for outstanding academic performance up to the 4th semester.",
+    ],
+},
+
+    {
         title: "Research Paper — ComSIA-2026",
         organization: "University of Delhi",
         iconBg: "#1a1a1a",
