@@ -21,17 +21,18 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-  Third-year Computer Science student at Sathyabama Institute of
-  Science and Technology, Chennai, with a CGPA of 9.47. Awarded the
-  Chancellor's Scholarship Merit Certificate 2026 for securing 11th Rank
-  among 1,700+ students. I'm a full-stack developer specializing in MERN
-  and PERN stack applications, with production-grade projects in finance,
-  project management, and collaborative tools. I've co-authored a research
-  paper presented at an international conference, solved 700+ DSA
-  problems, and led technical workshops for 150+ students as a Former IEEE
-  WIE Executive Committee Member. Currently seeking Software Development
-  Engineer internship opportunities where I can contribute to impactful
-  products while continuing to grow as an engineer.
+  <p>
+  Third-year Computer Science student at Sathyabama Institute of Science and
+  Technology, Chennai, with a CGPA of 9.47 and ranked 11th among 1,700+
+  students. I'm a full-stack developer specializing in MERN and PERN stack
+  applications, with experience building production-grade projects across
+  finance, project management, and collaborative platforms. I've co-authored
+  a research paper presented at an international conference, solved 700+ DSA
+  problems, and led technical workshops for 150+ students as a former IEEE WIE
+  Executive Committee Member. Currently exploring Low-Level Design, Generative
+  AI, and scalable software architecture while seeking Software Development
+  Engineer internship opportunities.
+</p>
 </p>
       </div>
 
@@ -55,42 +56,42 @@ const About = () => {
       </div>
 
       <div className='py-10'>
-        <h3 className='subhead-text'>Currently Exploring</h3>
+  <h3 className='subhead-text'>Currently Exploring</h3>
 
-        <div className='mt-5 grid md:grid-cols-2 gap-4'>
-          <div className='p-4 rounded-lg border border-slate-200 bg-white'>
-            <h4 className='font-semibold'>Advanced System Design</h4>
-            <p className='text-slate-500 text-sm mt-1'>
-              Learning scalable architectures, distributed systems, and backend
-              design patterns.
-            </p>
-          </div>
+  <div className='mt-5 grid md:grid-cols-2 gap-4'>
+    <div className='p-4 rounded-lg border border-slate-200 bg-white'>
+      <h4 className='font-semibold'>Low-Level Design (LLD)</h4>
+      <p className='text-slate-500 text-sm mt-1'>
+        Learning object-oriented design, SOLID principles, design patterns,
+        and building maintainable and scalable software components.
+      </p>
+    </div>
 
-          <div className='p-4 rounded-lg border border-slate-200 bg-white'>
-            <h4 className='font-semibold'>Generative AI & LLM Integrations</h4>
-            <p className='text-slate-500 text-sm mt-1'>
-              Building AI-powered applications using modern LLM APIs and agent
-              workflows.
-            </p>
-          </div>
+    <div className='p-4 rounded-lg border border-slate-200 bg-white'>
+      <h4 className='font-semibold'>Generative AI & LLM Integrations</h4>
+      <p className='text-slate-500 text-sm mt-1'>
+        Building AI-powered applications using modern LLM APIs and exploring
+        agent-based workflows.
+      </p>
+    </div>
 
-          <div className='p-4 rounded-lg border border-slate-200 bg-white'>
-            <h4 className='font-semibold'>Next.js Full-Stack Architecture</h4>
-            <p className='text-slate-500 text-sm mt-1'>
-              Exploring advanced patterns for authentication, databases,
-              caching, and deployment.
-            </p>
-          </div>
+    <div className='p-4 rounded-lg border border-slate-200 bg-white'>
+      <h4 className='font-semibold'>Next.js Full-Stack Architecture</h4>
+      <p className='text-slate-500 text-sm mt-1'>
+        Exploring advanced patterns for authentication, databases, caching,
+        APIs, and deployment.
+      </p>
+    </div>
 
-          <div className='p-4 rounded-lg border border-slate-200 bg-white'>
-            <h4 className='font-semibold'>Competitive Programming</h4>
-            <p className='text-slate-500 text-sm mt-1'>
-              Strengthening problem-solving skills through LeetCode and
-              Codeforces contests.
-            </p>
-          </div>
-        </div>
-      </div>
+    <div className='p-4 rounded-lg border border-slate-200 bg-white'>
+      <h4 className='font-semibold'>Competitive Programming</h4>
+      <p className='text-slate-500 text-sm mt-1'>
+        Strengthening problem-solving skills through LeetCode and Codeforces
+        contests.
+      </p>
+    </div>
+  </div>
+</div>
 
       <div className='py-16'>
         <h3 className='subhead-text'>Achievements & Certifications</h3>

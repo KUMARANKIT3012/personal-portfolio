@@ -105,6 +105,7 @@ export const skills = [
 ];
 
 export const achievements = [
+    
     {
     title: "Chancellor's Scholarship Merit Certificate 2026",
     organization: "Sathyabama Institute of Science and Technology",
@@ -150,16 +151,29 @@ export const achievements = [
         ],
     },
     {
-        title: "650+ DSA Problems Solved",
+        title: "700+ DSA Problems Solved",
         organization: "LeetCode, GeeksForGeeks & Codeforces",
         iconBg: "#1a1a1a",
         date: "2024 - Present",
             points: [
-            "Solved 650+ algorithmic and data structure problems across LeetCode, GeeksForGeeks, and competitive programming platforms.",
+            "Solved 700+ algorithmic and data structure problems across LeetCode, GeeksForGeeks, and competitive programming platforms.",
             "Built strong expertise in trees, graphs, dynamic programming, backtracking, binary search, and greedy algorithms.",
             "Regularly participates in coding contests to strengthen analytical thinking, problem-solving, and coding efficiency.",
             ],
     },
+
+    {
+    title: "Supervised Machine Learning: Regression and Classification — Certified",
+    organization: "Coursera / DeepLearning.AI & Stanford Online",
+    iconBg: "#1a1a1a",
+    date: "2026",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/5QT31UVHZFBY",
+    points: [
+        "Completed 'Supervised Machine Learning: Regression and Classification' by Andrew Ng.",
+        "Learned supervised learning techniques including linear regression, logistic regression, and classification.",
+        "Gained practical understanding of model training, regularization, and evaluating machine learning models.",
+    ],
+},
 
     {
         title: "Google Gemini Certified Student",
